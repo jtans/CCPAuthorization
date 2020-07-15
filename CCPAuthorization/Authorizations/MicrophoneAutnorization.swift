@@ -22,7 +22,7 @@ extension CCPAuthorization {
         }
     }
     
-    var microphoneStatus: CCPAuthorizationStatus {
+    public var microphoneStatus: CCPAuthorizationStatus {
         return AVCaptureDevice.authorizationStatus(for: .audio).toCCPStatus()
     }
 }

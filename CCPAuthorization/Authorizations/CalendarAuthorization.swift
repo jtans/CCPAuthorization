@@ -24,7 +24,7 @@ extension CCPAuthorization {
         }
     }
     
-    var calendarStatus: CCPAuthorizationStatus {
+    public var calendarStatus: CCPAuthorizationStatus {
         return EKEventStore.authorizationStatus(for: .event).toCCPStatus()
     }    
 }

@@ -22,7 +22,7 @@ extension CCPAuthorization {
         }
     }
     
-    var contactStatus: CCPAuthorizationStatus {
+    public var contactStatus: CCPAuthorizationStatus {
         return CNContactStore.authorizationStatus(for: .contacts).toCCPStatus()
     }
 }

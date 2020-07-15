@@ -23,7 +23,7 @@ extension CCPAuthorization {
         }
     }
     
-    open var cameraStatus: CCPAuthorizationStatus {
+    public var cameraStatus: CCPAuthorizationStatus {
         return AVCaptureDevice.authorizationStatus(for: .video).toCCPStatus()
     }
 }

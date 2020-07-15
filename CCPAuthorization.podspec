@@ -109,7 +109,7 @@ spec.source_files  = "CCPAuthorization/Authorizations/*.swift"
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+   spec.resources = "CCPAuthorization/Authorizations/**/*.strings"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

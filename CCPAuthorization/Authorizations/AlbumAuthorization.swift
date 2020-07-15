@@ -26,7 +26,7 @@ extension CCPAuthorization {
         }
     }
     
-    var albumStatus: CCPAuthorizationStatus {
+    public var albumStatus: CCPAuthorizationStatus {
         return PHPhotoLibrary.authorizationStatus().toCCPStatus()
     }
 }
